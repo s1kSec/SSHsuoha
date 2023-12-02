@@ -45,17 +45,9 @@ python .\EchoPwdSSHSUOHA.py -i 192.168.213.132 192.168.213.* -d adminadmin
 
 进阶技巧：
 
-程序生成flagVPS后，可以在监控之前数据清洗：![image-20231202010740343](C:\Users\Unicode utf-8\AppData\Roaming\Typora\typora-user-images\image-20231202010740343.png)
-
+程序生成flagVPS后，可以在监控之前数据清洗：
+![image](https://github.com/PlusTop/SSHsuoha/assets/105430146/cf5466f7-9563-493e-bfe7-36dc5b85d9bb)
 运行过程中可以更改common.txt的命令，会在下一次ssh连接成功执行（命令是一行一行调用，可以写入mm操作）:
-
-![image-20231202010723963](C:\Users\Unicode utf-8\AppData\Roaming\Typora\typora-user-images\image-20231202010723963.png)
-
-
-
-
-
+![image](https://github.com/PlusTop/SSHsuoha/assets/105430146/95f7bf0d-2895-4eac-8668-8645e2a2916b)
 运行结果：
-
-![image-20231202010830201](C:\Users\Unicode utf-8\AppData\Roaming\Typora\typora-user-images\image-20231202010830201.png)
-
+![image](https://github.com/PlusTop/SSHsuoha/assets/105430146/7dda52ba-d178-41cd-83e2-0f1eac3a4f04)
