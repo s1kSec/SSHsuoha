@@ -26,6 +26,18 @@ pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 
+**Usage** 
+
+```
+python3 .\EchoPwdSSHSUOHA.py -i targetIP -d OldPassword
+```
+
+**Example**
+
+```
+python .\EchoPwdSSHSUOHA.py -i 192.168.213.132 192.168.213.* -d adminadmin
+```
+
 当有确定的SSH地址的时候，可以生成后再flagVPS.txt中进行CRUD，来提高效率
 
 common.txt用于改密后的RCE操作
@@ -39,19 +51,6 @@ tips:
 ​	3.由于未知的原因，有时候因为莫名奇妙的问题会出现except拦截错误(这里如果有师傅知道可以告知一下)，不用管就好，看result.txt里面的就行
 
 ​	4.可以通过只设置自己的ssh密码来避免重置被别人改密码
-
-**Usage** 
-
-```
-python3 .\EchoPwdSSHSUOHA.py -i targetIP -d OldPassword
-```
-
-**Example**
-
-```
-python .\EchoPwdSSHSUOHA.py -i 192.168.213.132 192.168.213.* -d adminadmin
-```
-
 进阶技巧：
 
 程序生成flagVPS后，可以在监控之前数据清洗：
