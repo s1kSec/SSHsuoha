@@ -16,6 +16,10 @@ commonResult.txt ----->common执行操作的输出结果
 result.txt ----->改密的机器
 
 ```
+部署：建议使用Venv模块进行部署，需要的包在requirements.txt中
+```
+pip install -r requirements.txt
+```
 
 当有确定的SSH地址的时候，可以生成后再flagVPS.txt中进行CRUD，来提高效率
 
