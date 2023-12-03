@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*-coding:utf-8-*-
-# Anthor: EchoPwdSec
+# Anthor: kukud_x1aoliu
 # 按装订区域中的绿色按钮以运行脚本。
 import datetime
 import optparse
@@ -14,7 +14,7 @@ import paramiko
 pwd = "byechopwdsec"  # 默认密码
 flagStatushelp = """
         执行改密操作      循环执行        命令执行
-            1             1             1       =>(默认值)无限执行并改密加命令执行
+            1             1             1       =>无限执行并改密加命令执行
             0             1             1       =>批量重复执行某个命令
             1             1             0       =>批量改密
             0             0             1       =>只执行一次命令(这里执行命令后，程序才会自动结束)
@@ -125,8 +125,8 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
     flagStatus = options.status
     # 未指定参数的情况
-    if options.ips is None or options.oldpassword is None:
-        print("\033[0;31;40m旧密码或者目标地址池未指定!!请检查你的参数\033[0m")
+    if options.ips is None or options.oldpassword is None or options.status:
+        print("\033[0;31;40m旧密码、目标地址池、运行参数有未指定项!!请检查你的参数\033[0m")
         print(options)
         exit()
     banner = """
