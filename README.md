@@ -70,5 +70,7 @@ tips:
 运行结果：
 ![image](https://github.com/PlusTop/SSHsuoha/assets/105430146/7dda52ba-d178-41cd-83e2-0f1eac3a4f04)
 
-运行模式111:![111](https://github.com/PlusTop/SSHsuoha/assets/105430146/6a11e7c2-54d2-4059-9051-051bf6556441)
+运行模式111(批量改密+批量命令执行):![111](https://github.com/PlusTop/SSHsuoha/assets/105430146/6a11e7c2-54d2-4059-9051-051bf6556441)
+运行模式011(批量命令执行):![011](https://github.com/PlusTop/SSHsuoha/assets/105430146/d88f4cfd-947d-4bcd-a321-3aca1f38d552)
+
 
