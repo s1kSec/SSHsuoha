@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 # -*-coding:utf-8-*-
 # Anthor: kukud_x1aoliu
-# 按装订区域中的绿色按钮以运行脚本。
 import datetime
 import optparse
 import re
 import socket
 import threading
 import queue
-
 import paramiko
 
 pwd = "byechopwdsec"  # 默认密码
