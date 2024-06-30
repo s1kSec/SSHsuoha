@@ -123,7 +123,7 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
     flagStatus = options.status
     # 未指定参数的情况
-    if options.ips is None or options.oldpassword is None or options.status:
+    if (options.ips is None ) or (options.oldpassword is None) or not options.status:
         print("\033[0;31;40m旧密码、目标地址池、运行参数有未指定项!!请检查你的参数\033[0m")
         print(options)
         exit()
